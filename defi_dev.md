@@ -1,5 +1,5 @@
 
-# Défi ONLINE FORMAPRO 2021 DEV et TSSR en TECH 
+# Défi ONLINE FORMAPRO 2021 DEV
 Vous trouverez ici les instructions pour réaliser votre défi.
 
 ## Philosophie
