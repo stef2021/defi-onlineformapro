@@ -1,0 +1,183 @@
+
+/*** vecteur ***/
+
+.vector {
+    z-index: 999;
+
+}
+.vector-blue:before, .vector-blue:after {
+    background-color: #BDD7FE;
+
+}
+
+.vector-orange:before, .vector-orange:after {
+    background-color: #F87F28;
+
+}
+
+.vector-white:before, .vector-white:after {
+    background-color: #EAF1FD;
+
+}
+
+.vector-grey:before, .vector-grey:after {
+    background-color: rgba(250, 250, 250, 0.28);
+
+}
+
+
+/*** vecteur croix ***/
+    /* présentation */
+.vector-cross1 {
+    left: 20%;
+    top: 15%;
+}
+
+.vector-cross2 {
+    left: 5%;
+    top: 47%;
+}
+
+.vector-cross3 {
+    right: 48%;
+    top: 30%;
+}
+
+.vector-cross4 {
+    left: 20%;
+    top: 55%;
+}
+
+.vector-cross5 {
+    right: 15%;
+    top: 7%
+}
+
+.vector-cross6 {
+    left: 35%;
+    top: 65%
+}
+
+.vector-cross7 {
+    left: 14%;
+    top: 78%
+}
+
+/** compétence **/
+.vector-cross8 {
+    top: 162%;
+    left: 3%
+}
+
+.vector-cross9 {
+    top: 165%;
+    left: 3%;
+}
+
+.vector-cross10 {
+    top: 168%;
+    left: 3%;
+}
+
+.vector-cross11 {
+    top: 169%;
+    left: 10%;
+}
+
+.vector-cross12 {
+    top: 173%;
+    left: 20%;
+}
+
+.vector-cross13 {
+    top: 155%;
+    left: 30%;
+}
+
+.vector-cross14 {
+    top: 158%;
+    left: 56%;
+}
+
+.vector-cross15 {
+    top: 150%;
+    right: 20%;
+}
+
+.vector-cross16 {
+    top: 190%;
+    left: 32%;
+}
+
+.vector-cross17 {
+    top: 215%;
+    left: 28%;
+}
+
+.vector-cross18 {
+    top: 200%;
+    left: 52%;
+}
+
+.vector-cross19 {
+    top: 180%;
+    left: 65%;
+}
+
+.vector-cross20 {
+    top: 230%;
+    right: 5%;
+}
+
+.vector-cross21 {
+    top: 227%;
+    right: 5%;
+}
+
+.vector-cross22 {
+    top: 233%;
+    right: 5%;
+}
+
+.vector-cross23 {
+    top: 240%;
+    right: 42%;
+}
+
+.vector-cross24 {
+    top: 240%;
+    right: 40%;
+}
+
+.vector-cross241 {
+    top: 270%;
+    right: 140%;
+}
+
+
+
+
+/* croix */
+
+.cross {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+  }
+
+  .cross:before, .cross:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 15px;
+    width: 2px;
+  }
+  .cross:before {
+    transform: rotate(90deg);
+  }
+
+  @media (max-width: 991.98px) {
+      .vector {
+          display: none;
+      }
+  }

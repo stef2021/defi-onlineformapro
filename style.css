@@ -1,0 +1,1062 @@
+ 
+ /*** Général ***/
+ * {
+        padding: 0;
+        margin: 0;
+    }
+
+/*** reset bootstrap ***/
+
+p {
+    margin-bottom: 0px;
+}
+
+/*** Background ***/
+
+.grey-dark {
+    background-color: #232323;
+}
+.black {
+    background-color: #202020 ;
+}
+
+
+/*** Taille section ***/
+.presentation, .clients, .competences, .portfolio, .experience, .skills, .temoignages, .actualites, .contact {
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+/*** navbar ***/
+
+.navbar {
+    position: relative;
+    transition: .5s;
+    z-index: 999;
+    color: white;
+    padding-bottom: 0;
+}
+
+.navbarinfo {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoolivier {
+    padding-left: -10%;
+    height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+}
+.navbar a {
+    color: white;
+
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.dropdown span {
+    color: #888888
+}
+
+.navbar p {
+    display: inline;
+}
+
+.navbar-toggler-icon {
+    color: #888888;
+}
+
+.dropdown-toggle {
+    background: transparent;
+}
+@media (max-width: 991.98px) {   
+    .navbar p {
+        display: none;
+    }
+
+    .dropdown span {
+        color: #fff;
+    }
+
+    .dropdown button {
+        background: #F87F28;
+        border-radius: 50px;
+    }
+}
+/*** Présentation ***/
+
+.about {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.iam {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+}
+.iam1{
+    border: 3px solid rgba(248.0000004172325, 127.00000002980232, 40.00000141561031, 1);
+    width: 73px;
+}
+
+.presentation .section-header h2 {
+    font-size: 72px;
+    line-height: 101px;
+    letter-spacing: -3px;
+}
+
+.presentation .section-header span {
+    display: block;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 101px;
+    color: #F87F28;
+}
+
+.about-text {
+    width: 50%;
+    height: 72px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.aboutjob {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btnportfolio {
+    width: 30%;
+    height: 47px;
+    background: #BB2323;
+    border: 2px solid #BB2323;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    color: white
+}
+
+.btncontact {
+    width: 30%;
+    height: 47px;
+    background: transparent;
+    border: 2px solid #F87F28;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #F87F28
+}
+
+.presentation .col-lg-6 {
+    padding-right: 0;
+}
+.about-img {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img[src*="about"] {
+    width: 100%;
+    float: right;
+    position: relative;
+    top: 9vh;
+}
+
+@media (max-width: 991.98px) {   
+
+    .about {
+        margin-top: 5%;
+        padding-left: 0;
+        padding-bottom: 30%;
+    }
+
+    .about-text {
+        width: 80%;
+
+    }
+
+    .presentation .section-header h2 {
+        font-size: 40px;
+        line-height: 101px;
+        letter-spacing: -3px;
+    }
+
+    .presentation .section-header span {
+        margin-top: -15%;
+    }
+    
+    img[src*="about"] {
+        display: none;
+    }
+}
+
+/*** Client ***/
+
+.clients {
+    margin-top: 20%;
+    padding-bottom: 5%;
+}
+.clientitle {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 31px;
+
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #BFBFBF;
+}
+
+img[alt*="logo"] {
+    margin-left: 5%;
+}
+
+img[src*="sega"] {
+    width: 109px;
+    height: 36.36px;
+    
+}
+
+img[src*="ubisoft"] {
+    width: 73.45px;
+    height: 67.48px;     
+}
+
+img[src*="microsoft"] {
+    width: 170.31px;
+    height: 92.02px;
+     
+}
+
+img[src*="EA"] {
+    width: 120.11px;
+    height: 94px;    
+}
+
+img[src*="capcom"] {
+    width: 131.2px;
+    height: 24.02px;
+    
+}
+
+img[src*="bethesda"] {
+    width: 158.57px;
+    height: 22.99px;
+  
+}
+
+@media (max-width: 991.98px) {   
+
+    .clientitle {
+        margin-left: 5%;
+        margin-bottom: 5%;
+        text-align: left;
+
+    }
+
+
+}
+
+
+/*** Compétences ***/
+
+.competences {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.competencestitle {
+
+    padding-bottom: .2%;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.competencestitle1{
+    border: 3px solid rgba(248, 127, 40, 1);
+    width: 73px;
+    height: 0px;
+    position: relative;
+    left: 48%;
+}
+
+.competencestext {
+    padding-top: 1%;
+    height: 48px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.competences figure {
+    display: inline-block;
+    text-align: left;
+    padding-top: 8%;
+    padding-left: 5%;
+}
+
+
+.competences figcaption p {
+    width: 172px;
+    height: 72px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #767E90
+}
+
+
+@media (max-width: 991.98px) {   
+
+
+.competencestitle {
+    margin-left: 5%;
+    text-align: left;
+
+}
+    .competencestext {
+        text-align: left;
+    }
+
+    .competences figure {
+        display: block;
+    }
+}
+
+/*** Portfolio ***/
+
+.portfolio {
+    padding-bottom: 10%;
+}
+
+
+.portfolio-content {
+    position: relative;
+    left: 30%;
+    bottom: 30vh;
+}
+
+.portfolio-img {
+    padding-left: 5%;
+    padding-top: 10%;
+    position: relative;
+    right: 10vw;
+}
+
+.portfolio .section-header h2 {
+
+    font-weight: 600;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.soulign{
+    border: 3px solid rgba(248, 127, 40, 1);
+    width: 73px;
+    height: 0px;
+    position: relative;
+    top: 5%;
+}
+
+.portfolio-text {
+    padding-top: 4%;
+    width: 296px;
+    height: 96px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.imgportfolio {
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+img[src*="astronaute"] {
+    width: 60%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+img[src*="desk"] {
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+img[src*="peinture"] {
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+img[src*="water"] {
+    width: 60%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+img[src*="machine"] {
+    width: 45%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+img[src*="citron"] {
+    width: 45%;
+    height: 30%;
+    border-radius: 20px;
+}
+
+@media (max-width: 991.98px) {   
+    .portfolio {
+        padding-bottom: 10%;
+    }
+
+    .portfolio-content {
+        
+        left: 5%;
+        bottom: 1vh;
+    }
+
+    .portfolio-img {
+        right: 1vw;
+    }
+
+    img[src*="astronaute"] {
+        width: 100%;
+    }
+    
+    img[src*="desk"] {
+        width: 100%;
+    }
+    
+    img[src*="peinture"] {
+        width: 100%;
+    }
+    
+    img[src*="water"] {
+        width: 100%;
+    }
+    
+    img[src*="machine"] {
+        width: 100%;
+    }
+    
+    img[src*="citron"] {
+        width: 100%;
+    }
+}
+
+/*** Expérience ***/
+
+.experience {
+    padding-bottom: 10%;
+}
+
+.experience-content {
+    padding-left: 20vw;
+}
+
+
+.experience .section-header h2 {
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.soulign1{
+    border: 3px solid rgba(248, 127, 40, 1);
+    width: 73px;
+    height: 0px;
+    left: 39%;
+    top: 5%;
+    text-align: center;
+}
+
+.experience-text {
+    padding-top: 5%;
+    width: 60%;
+    height: 40%;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.CV tr {
+    border-bottom: 1px solid rgba(173, 181, 189, 0.16);
+}
+.CV td  {
+    padding-right: 1vw;
+    padding-top: 2vh;
+    vertical-align: top;
+}
+
+.cvwhen {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+
+.cvjob {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+.cvinfo {
+    width: 17vw;
+    padding-bottom: 10%;
+    font-size: 14px;
+    line-height: 24px;
+
+
+}
+
+.experience .btn {
+    margin-top: 5%;
+    background: #BB2323;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (max-width: 991.98px) {
+
+    .experience-content {
+        padding-left: 1vw;
+    }
+
+    .cvinfo {
+        display: none;
+    }
+
+    .CV tr {
+        border: none;
+    }
+
+    .CV td  {
+        padding-left: 5%;
+        padding-top: 10%;
+    }
+
+    .cvicon {
+        padding-right: 4vw;
+    }
+
+    .cvjob {
+        width: 150vw;
+    }
+}
+
+/*** Skills ***/
+
+.skills {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.skiilscontainer {
+    padding-left: 15vw;
+}
+
+.skillrow {
+    display: flex;
+}
+
+.skillbar {
+    display: flex;
+    background: #2C2C2C;
+    height: 8vh;
+    box-shadow: 0px 0px 29px rgba(68, 88, 144, 0.12);
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 2%;
+    align-items: center;
+
+
+}
+
+.skillicon {
+    width: 50%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.skillicon p {
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+
+.skillscore {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+    margin-left: 20%;
+
+}
+
+
+
+.skillbar .span {
+    background: #F87F28;
+    border-radius: 30px;
+    width: 3vw;
+    height: 2,5vh;
+    display: inline-block;
+    margin-left: 15px;
+
+    color: black;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.angular {
+    width: 299px;
+}
+
+.react {
+    width: 350px;
+    left: 317px;
+}
+
+.nodejs {
+    width: 226px;
+}
+
+.management{
+    width: 301px;
+}
+
+.analytics {
+    width: 287px;
+}
+
+.brainstorming {
+    width: 287px;
+}
+.execution {
+    width: 482px;
+}
+
+
+.skilltext {
+    padding-left: 20%;
+}
+.skilltitle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.soulign2{
+    border: 3px solid rgba(248, 127, 40, 1);
+    width: 73px;
+    height: 0px;
+    left: 39%;
+    top: 5%;
+    text-align: center;
+}
+
+.skilldescription {
+    padding-top: 5%;
+    width: 50%;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media (max-width: 991.98px) {   
+    .skills {
+        display: none;
+    }
+}
+
+/*** Témoignages ***/
+
+.temoignages {
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+.barre{
+    border: 3px solid rgba(248, 127, 40, 1);
+    width: 73px;
+    height: 0px;
+    left: 47%;
+    position: relative;
+}
+.temoignages-content {
+    margin-top: 5%;
+    margin-left: -25%;
+}
+.temoignagetitle {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.temoignagesdescription {
+    width: 50%;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 36px;
+}
+
+.temoin {
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+.soulign3{
+    border: 3px solid rgba(248, 127, 40, 1);
+    width: 38px;
+    height: 0px;
+    bottom: 23%;
+    position: absolute;
+}
+.temoinjob {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+.temoignages-img {
+    padding-left: 55%;
+}
+
+img[src*="tete"] {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px 25px 60px 60px;
+}
+.g1{
+    width:37.89px;
+	height:29.06px;
+	position:relative;
+	bottom: 124px;
+	background-image:url(images/guillemet.png);
+
+}
+
+@media (max-width: 991.98px) {
+    .temoignages-img {
+        display: none;
+    }
+
+    .temoignages-content {
+        width: 170%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .temoin {
+        margin-bottom: 2%;
+    }
+
+}
+/*** Actualités ***/
+
+.actualites {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: start;
+}
+.actualites-title {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+   
+}
+
+.actualites-title h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: capitalize;
+
+
+}
+.soulign4{
+    border: 3px solid rgba(248, 127, 40, 1);
+    width: 73px;
+    height: 0px;
+    right: 16%;
+    bottom: 0%;
+    position: absolute;
+}
+
+.actualites-content {
+    display: flex;
+}
+
+.actu {
+    margin-bottom: 10%;
+}
+.actudate {
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #F87F28;
+}
+
+.actutitre {
+    margin-bottom: 1%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.actuinfo {
+    width: 60%;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media (max-width: 991.98px) {
+
+    .actualites-title {
+        justify-content: flex-start;
+        margin-bottom: 5%;
+    }
+}
+/*** Contact ***/
+
+.contact {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.contact-content {
+    padding-left: 50%;
+}
+
+.contact-content h2 {
+    display: flex;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #BFBFBF;
+}
+
+.contact-content td {
+    padding-right: 1vw;
+    padding-top: 1vh;
+    vertical-align: top;
+}
+
+.adresse, .mail, .telephone {
+    display: flex;
+}
+
+.info-type {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #F87F28;
+}
+
+.info {
+    padding-bottom: 10%;
+    width: 80%;
+    height: 80%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+.contactform-content {
+    padding-top: 10%;
+    padding-left: 15%;
+}
+
+.contactme {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.useform {
+    width: 65%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #BFBFBF;
+    margin-bottom: 5%;
+
+}
+
+.contactdescription {
+    width: 60%;
+    height: 72px;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.form-style-7{
+	max-width: 100%;
+	margin: 15% auto;
+	border-radius:2px;
+	padding: 10%;
+}
+
+.form-style-7 .form-content {
+	display: block;
+	padding: 9px;
+	border:1px solid #DDDDDD;
+	margin-bottom: 5%;
+	border-radius: 3px;
+}
+.form-line{
+    display: flex;
+}
+
+.form-mail {
+    margin-left: 10%;
+}
+
+.form-style-7 .form-content label{
+	display: block;
+	float: left;
+	margin-top: -19px;
+	height: 25px;
+	padding: 2px 5px 2px 5px;
+    background: #232323;
+	color: #B9B9B9;
+	font-size: 14px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+.form-style-7 input[type="text"],
+.form-style-7 input[type="email"],
+.form-style-7 select 
+{
+    color: white;
+    background: transparent;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0;
+}
+
+.form-style-7 textarea {
+    color: white;
+    background: transparent;
+	display: block;
+	border: none;
+    width: 100%;
+	height: 50%;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0;
+}
+
+
+
+.form-style-7 input[type="submit"],
+.form-style-7 input[type="button"]{
+	background: #BB2323;
+	border: none;
+	padding: 10px 20px 10px 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+	color: #D2E2FF;
+}
+.form-style-7 input[type="submit"]:hover,
+.form-style-7 input[type="button"]:hover{
+	background: #BB2323;
+	color:#fff;
+}
+
+
+@media (max-width: 991.98px) {
+    
+    .contact-content {
+        padding-left: 5%;
+    }
+
+    .info {
+        font-size: 16px;
+    }
+
+    .contactme {
+        display: none;
+    }
+
+    .useform {
+        width: 80%;    
+    }
+
+    .contactdescription {
+        width: 100%;
+    
+    }
+
+
+    .form-style-7{
+        max-width: 100%;
+        margin-top: 15%;
+        margin-left: -10%;
+        border-radius:2px;
+        
+    }
+
+    .form-line {
+        display: block;
+    }
+
+    .form-mail {
+        margin-left: 0;
+    }
+}
+
+/*** vecteur ***/
+
+
